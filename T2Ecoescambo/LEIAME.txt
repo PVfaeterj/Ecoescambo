@@ -1,0 +1,19 @@
+EcoEscambo - T2
+
+Requisitos: PHP 8.0 ou superior, MySQL/MariaDB com extensão pdo_mysql.
+
+1. Coloque a pasta EcoEscambo_T2_PHP dentro da pasta htdocs do XAMPP
+   (ou na pasta pública do seu servidor PHP).
+2. Inicie o Apache e o MySQL.
+3. No phpMyAdmin, importe cria_banco.sql e depois carga.sql.
+4. Caso necessário, ajuste o usuário e a senha do MySQL em config.php.
+5. Abra: http://localhost/EcoEscambo_T2_PHP/
+
+Usuários de teste:
+mbelo@teste.com.br / patasdeGalinha1
+jamile@teste.com.br / patasdeGalinha1
+
+O cadastro, os interesses e as propostas são gravados no banco de dados.
+O envio de e-mail e a ativação de conta não foram implementados porque
+são opcionais no T2. O cadastro exibe a mensagem pedida no cenário de
+teste, mas permite login imediatamente, conforme o mesmo cenário.
